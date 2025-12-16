@@ -1,5 +1,5 @@
 # Devify - Spotify Themed Portfolio
-[dastidarag01.github.io](https://dastidarag01.github.io)
+[arijit.ghosh.dastidar.net](https://arijit.ghosh.dastidar.net)
 
 
 A personal portfolio website with a sleek, immersive design inspired by Spotify. Built with React, TypeScript, and Tailwind CSS.
@@ -55,7 +55,7 @@ This project is configured to deploy to **GitHub Pages**.
    ```
    *Note: This command automatically builds your project (creating a `dist/` folder) and pushes it to the `gh-pages` branch.*
 
-3. Your changes will be live at `https://dastidarag01.github.io` in a few minutes.
+3. Your changes will be live at `https://arijit.ghosh.dastidar.net` in a few minutes.
 
 ## 🎨 Customization
 

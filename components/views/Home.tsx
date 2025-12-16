@@ -108,7 +108,7 @@ const Home: React.FC = () => {
                     <div className="grid grid-cols-[20px_4fr_3fr_1fr] md:grid-cols-[20px_6fr_4fr_3fr_1fr] gap-4 text-[#b3b3b3] border-b border-[#282828] px-4 py-2 text-sm uppercase mb-2 font-medium tracking-wider sticky top-16 bg-[#121212] z-10">
                         <span>{STRINGS.SECTIONS.WORK.HEADERS.NUM}</span>
                         <span>{STRINGS.SECTIONS.WORK.HEADERS.TITLE}</span>
-                        <span className="hidden md:block">{STRINGS.SECTIONS.WORK.HEADERS.COMPANY}</span>
+                        <span>{STRINGS.SECTIONS.WORK.HEADERS.COMPANY}</span>
                         <span className="hidden md:block">{STRINGS.SECTIONS.WORK.HEADERS.LOCATION}</span>
                         <span className="text-right flex justify-end items-center gap-1"><Clock size={16} /></span>
                     </div>
@@ -132,7 +132,7 @@ const Home: React.FC = () => {
                                             <span className="text-[#b3b3b3] text-sm truncate group-hover:text-white transition-colors">{exp.subtitle}</span>
                                         </div>
 
-                                        <div className="hidden md:flex items-center gap-3 text-[#b3b3b3] hover:text-white transition-colors truncate">
+                                        <div className="flex items-center gap-3 text-[#b3b3b3] hover:text-white transition-colors truncate">
                                             <img src={exp.imageUrl} alt={exp.role} className="w-6 h-6 object-contain opacity-80 group-hover:opacity-100" />
                                             <span className="font-medium text-white">{exp.role}</span>
                                         </div>
