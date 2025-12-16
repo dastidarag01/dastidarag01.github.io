@@ -1,4 +1,6 @@
 # Devify - Spotify Themed Portfolio
+[dastidarag01.github.io](https://dastidarag01.github.io)
+
 
 A personal portfolio website with a sleek, immersive design inspired by Spotify. Built with React, TypeScript, and Tailwind CSS.
 
@@ -36,15 +38,24 @@ A personal portfolio website with a sleek, immersive design inspired by Spotify.
 
 4. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-## 📦 Building for Production
+##  Deploying New Changes
 
-To create a production build:
+This project is configured to deploy to **GitHub Pages**.
 
-```bash
-npm run build
-```
+1. **Make your changes** and commit them:
+   ```bash
+   git add .
+   git commit -m "Description of changes"
+   git push
+   ```
 
-The output will be in the `dist/` directory, ready to be deployed to Vercel, Netlify, or any static host.
+2. **Deploy**:
+   ```bash
+   npm run deploy
+   ```
+   *Note: This command automatically builds your project (creating a `dist/` folder) and pushes it to the `gh-pages` branch.*
+
+3. Your changes will be live at `https://dastidarag01.github.io` in a few minutes.
 
 ## 🎨 Customization
 
