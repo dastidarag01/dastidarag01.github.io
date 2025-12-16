@@ -190,7 +190,7 @@ const Home: React.FC = () => {
                                     className={`bg-[#181818] p-5 rounded-lg hover:bg-[#282828] transition-all duration-300 cursor-pointer group flex flex-col sm:flex-row gap-5 shadow-lg hover:shadow-xl ${isExpanded ? 'bg-[#282828]' : ''}`}
                                 >
                                     {/* Album Art */}
-                                    <div className="w-full sm:w-40 sm:h-40 flex-shrink-0 relative rounded-md overflow-hidden bg-[#000] shadow-2xl">
+                                    <div className="w-24 h-24 sm:w-40 sm:h-40 flex-shrink-0 relative rounded-md overflow-hidden bg-[#000] shadow-2xl">
                                         <img
                                             src={edu.imageUrl}
                                             alt={edu.title}
